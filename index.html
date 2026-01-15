@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Prompt Maker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>🎬 Video Prompt Maker</h1>
+  <p>Upload video → Prompt otomatis jadi ✨</p>
+
+  <input type="file" id="videoInput" accept="video/*">
+
+  <select id="promptType">
+    <option value="ai">Prompt AI Video</option>
+    <option value="yt">Prompt YouTube</option>
+    <option value="tt">Prompt TikTok</option>
+    <option value="ig">Prompt Instagram Reels</option>
+  </select>
+
+  <button id="generateBtn">Generate Prompt</button>
+
+  <textarea id="result" placeholder="Prompt akan muncul di sini..."></textarea>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
